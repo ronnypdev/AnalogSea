@@ -1,0 +1,132 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto:100,300,400,500,700,900');
+
+body {
+  font-family: 'Roboto', sans-serif;
+  font-size: 16px;
+  background-color: #298EEA;
+}
+
+.main-content {
+  margin-top: 100px;
+}
+
+.logo {
+  margin: 0 auto;
+  display: block;
+  height: 35px;
+}
+
+.form {
+  width: 400px;
+  background-color: #FFFFFF;
+  margin: 0 auto;
+  padding: 40px;
+  border-radius: 3px;
+  position: relative;
+  top: 30px;
+}
+
+.form .form-header {
+  font-size: 25px;
+  font-weight: 300;
+  margin: 0 auto;
+  color: #565656;
+  padding: 15px;
+}
+
+.form label {
+  display: block;
+  position: relative;
+  left: 24px;
+}
+
+input[type='email'],
+input[type='password'],
+button[type='submit'] {
+    background: #fcfcfc;
+    border: 2px solid #e7e7e7;
+    margin: 20px auto;
+    padding: 15px;
+    width: 320px;
+    display: block;
+    border-radius: 3px;
+    font-size: 18px;
+    transition: opacity 0.4s;
+    text-align: left;
+    height: auto;
+}
+
+.form ::-webkit-input-placeholder {
+   color: #AEABAB;
+   font-size: 16px;
+}
+
+.form :-moz-placeholder { /* Firefox 18- */
+  color: #AEABAB;
+  font-size: 16px;
+}
+
+.form ::-moz-placeholder {  /* Firefox 19+ */
+  color: #AEABAB;
+  font-size: 16px;
+}
+
+.form :-ms-input-placeholder {
+  color: #AEABAB;
+  font-size: 16px;
+}
+
+input[type='email']:focus,
+input[type='password']:focus,
+button[type='submit']:focus {
+    border-color: #E7E7E7;
+    box-shadow: none;
+}
+
+button[type='submit'] {
+    color: white;
+    background: #15CD72;
+    border: 0;
+    font-weight: 500;
+    width: 354px;
+    font-size: 22px;
+    text-align: center;
+    cursor: pointer;
+    margin-bottom: 0;
+    height: auto;
+}
+
+button:hover[type='submit'] {
+    background-color: #0CB863;
+    -webkit-transition: background 0.1s;
+    -moz-transition: background 0.1s;
+    -o-transition: background 0.1s;
+    transition: background 0.1s;
+}
+
+.form p {
+    font-size: 14px;
+    text-align: center;
+    margin: 0;
+    margin-top: 10px;
+    color: #999;
+}
+
+.form a {
+  text-decoration: none;
+  color: #999;
+  border-bottom: 1px solid #bbb;
+}
+
+.form-footer {
+  text-align: center;
+  color: white;
+  margin: 39px auto;
+  font-weight: 600;
+  border: 0;
+  padding: 0;
+}
+
+.form-footer  a {
+  color: #FFFFFF;
+}
